@@ -15,6 +15,8 @@
 		6489A5291C8F1E78000257EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6489A5271C8F1E78000257EF /* LaunchScreen.storyboard */; };
 		6489A5341C8F1E78000257EF /* AnamationGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6489A5331C8F1E78000257EF /* AnamationGroupTests.m */; };
 		6489A53F1C8F1E78000257EF /* AnamationGroupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6489A53E1C8F1E78000257EF /* AnamationGroupUITests.m */; };
+		6489A54E1C8F1FAD000257EF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6489A54C1C8F1FAD000257EF /* background.png */; };
+		6489A54F1C8F1FAD000257EF /* greenPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6489A54D1C8F1FAD000257EF /* greenPin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6489A53A1C8F1E78000257EF /* AnamationGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnamationGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6489A53E1C8F1E78000257EF /* AnamationGroupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnamationGroupUITests.m; sourceTree = "<group>"; };
 		6489A5401C8F1E78000257EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6489A54C1C8F1FAD000257EF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6489A54D1C8F1FAD000257EF /* greenPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenPin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				6489A51D1C8F1E78000257EF /* AppDelegate.m */,
 				6489A51F1C8F1E78000257EF /* ViewController.h */,
 				6489A5201C8F1E78000257EF /* ViewController.m */,
+				6489A54C1C8F1FAD000257EF /* background.png */,
+				6489A54D1C8F1FAD000257EF /* greenPin.png */,
 				6489A5221C8F1E78000257EF /* Main.storyboard */,
 				6489A5251C8F1E78000257EF /* Assets.xcassets */,
 				6489A5271C8F1E78000257EF /* LaunchScreen.storyboard */,
@@ -207,6 +213,7 @@
 				TargetAttributes = {
 					6489A5151C8F1E78000257EF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U2QTD55986;
 					};
 					6489A52E1C8F1E78000257EF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -244,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6489A5291C8F1E78000257EF /* LaunchScreen.storyboard in Resources */,
+				6489A54F1C8F1FAD000257EF /* greenPin.png in Resources */,
+				6489A54E1C8F1FAD000257EF /* background.png in Resources */,
 				6489A5261C8F1E78000257EF /* Assets.xcassets in Resources */,
 				6489A5241C8F1E78000257EF /* Main.storyboard in Resources */,
 			);
@@ -411,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnamationGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fushike.AnamationGroup;
@@ -422,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnamationGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fushike.AnamationGroup;
@@ -496,6 +507,7 @@
 				6489A5451C8F1E78000257EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6489A5461C8F1E78000257EF /* Build configuration list for PBXNativeTarget "AnamationGroupTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +516,7 @@
 				6489A5481C8F1E78000257EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6489A5491C8F1E78000257EF /* Build configuration list for PBXNativeTarget "AnamationGroupUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				6489A54B1C8F1E78000257EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
